@@ -9,8 +9,10 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Body />
+      <div className='fondoPpal flex flex-col justify-evenly h-screen'>
+        <Header />
+        <Body />
+      </div>
     </>
   )
 }

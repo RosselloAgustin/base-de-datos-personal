@@ -2,11 +2,11 @@ import React from 'react'
 
 const Body = () => {
   return (
-    <div className='flex justify-center bg-verde0'>
+    <div className='flex justify-evenly h-1/3 max-w-full'>
 
-        <button className="p-2 m-2 bg-verde8 text-white rounded-lg	">Finanzas</button>
-        <button className="p-2 m-2 bg-verde8 text-white rounded-lg	">Lista</button>
-        <button className="p-2 m-2 bg-verde8 text-white rounded-lg	">Calendario</button>
+        <button className="bg-verde8 text-white rounded-lg w-60 h-60">Finanzas</button>
+        <button className="bg-verde8 text-white rounded-lg w-60 h-60">Lista</button>
+        <button className="bg-verde8 text-white rounded-lg w-60 h-60">Calendario</button>
 
     </div>
   )
