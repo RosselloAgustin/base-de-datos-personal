@@ -10,6 +10,7 @@ export default {
         colors: {
           transparent: 'transparent',
           current: 'currentColor',
+          verdeFondo:'#81b27d',
           verde0: '#d6ffc7',
           verde1: '#b1ff96',
           verde2: '#7ffd59',
@@ -20,6 +21,15 @@ export default {
           verde7: '#1b680c',
           verde8: '#19580f',
           verde9: '#073102',
+
+          //Le agregamos un par de colores más! Son compatibles con estos verdes
+          
+          beigeClaro:'#c0d5b5', 
+          amarilloSuave:'#f1e0a4 ',  
+          grisClaro:'#b9b7b0',  
+          naranjaCalido:'#f4a300',  
+          rosaSuave:'#f9caca '
+          
         },
       },
   },
