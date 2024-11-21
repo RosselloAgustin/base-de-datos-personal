@@ -9,4 +9,4 @@ SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJ
 # port=6543 
 # dbname=postgres
 
-# ConnectionString postgresql://postgres.dciuzviutxyiqieylhia:[YOUR-PASSWORD]@aws-0-eu-central-1.pooler.supabase.com:6543/postgres
+#ConnectionString postgresql://postgres.dciuzviutxyiqieylhia:[YOUR-PASSWORD]@aws-0-eu-central-1.pooler.supabase.com:6543/postgres

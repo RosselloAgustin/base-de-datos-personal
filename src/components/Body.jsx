@@ -24,7 +24,10 @@ const Body = () => {
         <button className="bg-verde8 hover:bg-verde9 transition-all text-grisClaro text-4xl border border-black hover:shadow-2xl shadow-black rounded-lg w-60 h-40">Viajes</button>
       </div>
 
-
+      {/* 
+          Estaria bueno agregar Recetas, un Stock de lo que hay en la casa (por ejemplo si hay 3 paquetes de arroz, 2 paquetes de azucar, etc)
+          Tambien estaria bueno un listado de compras
+      */}
         
     </div>
   )

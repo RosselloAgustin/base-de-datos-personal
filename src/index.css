@@ -9,3 +9,17 @@
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/* .imgBienvenidaLogin{
+    background-image: url("./assets/images/imgBienvenidaLogin.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}*/
+.imgFondoLogin{
+    background-image: url("./assets/images/imgFondoLogin.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(1.5rem);
+    z-index:-2;
+} 
