@@ -25,3 +25,11 @@ def delete(user_id):
     supabase = connect_to_supabase()
     response = supabase.table("users").delete().eq("id", user_id).execute()
     print(response)
+
+def loginExists(user, pw):
+    supabase = connect_to_supabase()
+    response = supabase.table("users").select("*").eq("email", user).eq("pw", pw).execute()
+    # print(response.data)
+    if response.data:
+        return True
+    return False

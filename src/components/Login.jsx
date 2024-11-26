@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+// import { supabase } from "../supabaseClient";
+import { supabase } from "../bdd.py";
 
 const Login = ({ onLogin }) => {
   const [username, setUsername] = useState("");
@@ -9,8 +10,10 @@ const Login = ({ onLogin }) => {
   const handleLogin = (e) => {
     e.preventDefault();
 
+    var x = loginExists(username, password);
     // Valida las credenciales (puedes conectarte a una API aquí)
-    if (username === "admin@gmail.com" && password === "1234") {
+    // if (username === "admin@gmail.com" && password === "1234") {
+    if (x){
       onLogin(); // Llama a la función pasada desde App.jsx para cambiar el estado
     } else {
       setError("Email o contraseña incorrectos");
